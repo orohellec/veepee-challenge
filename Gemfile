@@ -31,12 +31,12 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # for administration interface
 gem 'activeadmin', '~> 2.6'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'faker', '~> 2.10', '>= 2.10.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.9'
-  gem 'faker', '~> 2.10', '>= 2.10.1'
   gem "factory_bot_rails"
 end
 
